@@ -203,3 +203,45 @@
     background: #fa3131;
     border-radius: 15px;
   }
+
+  /* responsive*/
+
+@media (max-width: 575px) {
+    section {
+        height: auto; /* Adjust height to auto for smaller screens */
+    }
+
+    section nav {
+        flex-direction: column; /* Change flex-direction to column for smaller screens */
+        height: auto; /* Adjust height to auto for smaller screens */
+        padding: 10px 0; /* Add padding for better spacing */
+    }
+
+    section nav .logo img {
+        width: 40px; /* Adjust logo size for smaller screens */
+    }
+
+    section nav ul {
+        margin-top: 10px; /* Add margin-top for better spacing */
+    }
+
+    section nav ul li {
+        margin: 0; /* Remove margin for list items */
+        margin-bottom: 10px; /* Add margin-bottom for better spacing between items */
+        text-align: center; /* Center-align list items */
+    }
+
+    .container {
+        width: 90%; /* Adjust width for smaller screens */
+        margin: 0 auto; /* Center-align container */
+        margin-top: 20px; /* Add margin-top for better spacing */
+    }
+
+    footer {
+        margin-top: 50px; /* Adjust margin-top for footer */
+    }
+
+    footer .footer_main {
+        grid-template-columns: 1fr; /* Change grid-template-columns to 1 column for smaller screens */
+    }
+}
