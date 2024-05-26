@@ -8,6 +8,10 @@ body {
     height: 100vh;
     background-color: #f0f0f0;
   }
+  body {
+    background: url('../image/pexels-ella-olsson-572949-1640770.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
 
 
   
